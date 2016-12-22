@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1482326482694" stop="1482326554342" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>smoke : login</name>
+    <title>smoke : login</title>
+    <test-cases>
+        <test-case start="1482326511170" stop="1482326535477" status="passed">
+            <name>testLoginWithCorrectData</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326537874" stop="1482326539075" status="passed">
+            <name>testLoginWithEmptyFields[minchekov160@hotmail.com,,Password must be supplied]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326541415" stop="1482326542556" status="passed">
+            <name>testLoginWithEmptyFields[,Qw1111,Username must be supplied]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326545581" stop="1482326548992" status="passed">
+            <name>testLoginWithIncorrectData[wrongLogin,Qw1111]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326550886" stop="1482326554146" status="passed">
+            <name>testLoginWithIncorrectData[minchekov160@hotmail.com,wrongLogin]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(13)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

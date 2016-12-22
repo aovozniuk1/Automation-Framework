@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1482326482694" stop="1482326613767" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>smoke : homepage</name>
+    <title>smoke : homepage</title>
+    <test-cases>
+        <test-case start="1482326507025" stop="1482326560425" status="passed">
+            <name>deleteAllFoldersExclusivelyFileSharing</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326565970" stop="1482326571619" status="passed">
+            <name>testAddingCommentToFile</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326577166" stop="1482326595958" status="passed">
+            <name>testCreatingNewFolder</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326602244" stop="1482326605810" status="passed">
+            <name>testLogoutButton</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(14)"/>
+            </labels>
+        </test-case>
+        <test-case start="1482326611994" stop="1482326613647" status="passed">
+            <name>testPresenceOfOfFileSharingFolder</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MyNew"/>
+                <label name="thread" value="15840@MyNew.TestNG(14)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

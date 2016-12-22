@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smoke" duration-ms="131050" started-at="2016-12-21T13:21:22Z" finished-at="2016-12-21T13:23:33Z">
+    <groups>
+      <group name="freeAccount , admin">
+        <method signature="LoginPageTest.testLoginWithIncorrectData(java.lang.String, java.lang.String)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="testLoginWithIncorrectData" class="tests.login_page.LoginPageTest"/>
+      </group> <!-- freeAccount , admin -->
+    </groups>
+    <test name="login" duration-ms="71551" started-at="2016-12-21T13:21:22Z" finished-at="2016-12-21T13:22:34Z">
+      <class name="tests.login_page.LoginPageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeClass" is-config="true" duration-ms="25665" started-at="2016-12-21T08:21:22Z" finished-at="2016-12-21T08:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="2794" started-at="2016-12-21T08:21:48Z" finished-at="2016-12-21T08:21:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.login_page.LoginPageTest.testLoginWithCorrectData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeLoinPage()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeLoinPage" is-config="true" duration-ms="5" started-at="2016-12-21T08:21:51Z" finished-at="2016-12-21T08:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoinPage -->
+        <test-method status="PASS" signature="testLoginWithCorrectData()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="testLoginWithCorrectData" duration-ms="24306" started-at="2016-12-21T08:21:51Z" finished-at="2016-12-21T08:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithCorrectData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="afterMethod" is-config="true" duration-ms="86" started-at="2016-12-21T08:22:15Z" finished-at="2016-12-21T08:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="2077" started-at="2016-12-21T08:22:15Z" finished-at="2016-12-21T08:22:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.login_page.LoginPageTest.testLoginWithEmptyFields(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeLoinPage()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeLoinPage" is-config="true" duration-ms="1" started-at="2016-12-21T08:22:17Z" finished-at="2016-12-21T08:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoinPage -->
+        <test-method status="PASS" signature="testLoginWithEmptyFields(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="testLoginWithEmptyFields" duration-ms="1202" started-at="2016-12-21T08:22:17Z" data-provider="loginEmptyData" finished-at="2016-12-21T08:22:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minchekov160@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password must be supplied]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="afterMethod" is-config="true" duration-ms="62" started-at="2016-12-21T08:22:19Z" finished-at="2016-12-21T08:22:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="2270" started-at="2016-12-21T08:22:19Z" finished-at="2016-12-21T08:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.login_page.LoginPageTest.testLoginWithEmptyFields(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeLoinPage()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeLoinPage" is-config="true" duration-ms="1" started-at="2016-12-21T08:22:21Z" finished-at="2016-12-21T08:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoinPage -->
+        <test-method status="PASS" signature="testLoginWithEmptyFields(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="testLoginWithEmptyFields" duration-ms="1142" started-at="2016-12-21T08:22:21Z" data-provider="loginEmptyData" finished-at="2016-12-21T08:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qw1111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username must be supplied]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="afterMethod" is-config="true" duration-ms="52" started-at="2016-12-21T08:22:22Z" finished-at="2016-12-21T08:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="2964" started-at="2016-12-21T08:22:22Z" finished-at="2016-12-21T08:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.login_page.LoginPageTest.testLoginWithIncorrectData(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeLoinPage()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeLoinPage" is-config="true" duration-ms="1" started-at="2016-12-21T08:22:25Z" finished-at="2016-12-21T08:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoinPage -->
+        <test-method status="PASS" signature="testLoginWithIncorrectData(java.lang.String, java.lang.String)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="testLoginWithIncorrectData" duration-ms="3414" started-at="2016-12-21T08:22:25Z" data-provider="loginFullData" finished-at="2016-12-21T08:22:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongLogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qw1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorrectData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="afterMethod" is-config="true" duration-ms="62" started-at="2016-12-21T08:22:28Z" finished-at="2016-12-21T08:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeMethod" is-config="true" duration-ms="1824" started-at="2016-12-21T08:22:29Z" finished-at="2016-12-21T08:22:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.login_page.LoginPageTest.testLoginWithIncorrectData(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeLoinPage()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="beforeLoinPage" is-config="true" duration-ms="1" started-at="2016-12-21T08:22:30Z" finished-at="2016-12-21T08:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoinPage -->
+        <test-method status="PASS" signature="testLoginWithIncorrectData(java.lang.String, java.lang.String)[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="testLoginWithIncorrectData" duration-ms="3263" started-at="2016-12-21T08:22:30Z" data-provider="loginFullData" finished-at="2016-12-21T08:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[minchekov160@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongLogin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorrectData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.login_page.LoginPageTest@e45f292]" name="afterMethod" is-config="true" duration-ms="62" started-at="2016-12-21T08:22:34Z" finished-at="2016-12-21T08:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.login_page.LoginPageTest -->
+    </test> <!-- login -->
+    <test name="homepage" duration-ms="131050" started-at="2016-12-21T13:21:22Z" finished-at="2016-12-21T13:23:33Z">
+      <class name="tests.home_page.HomePageTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="beforeClass" is-config="true" duration-ms="14292" started-at="2016-12-21T08:21:22Z" finished-at="2016-12-21T08:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="9920" started-at="2016-12-21T08:21:37Z" finished-at="2016-12-21T08:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.home_page.HomePageTest.deleteAllFoldersExclusivelyFileSharing()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="homePagePrepare()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="homePagePrepare" is-config="true" duration-ms="4" started-at="2016-12-21T08:21:46Z" finished-at="2016-12-21T08:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagePrepare -->
+        <test-method status="PASS" signature="deleteAllFoldersExclusivelyFileSharing()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="deleteAllFoldersExclusivelyFileSharing" duration-ms="53485" started-at="2016-12-21T08:21:46Z" finished-at="2016-12-21T08:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllFoldersExclusivelyFileSharing -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="afterMethod" is-config="true" duration-ms="41" started-at="2016-12-21T08:22:40Z" finished-at="2016-12-21T08:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="5494" started-at="2016-12-21T08:22:40Z" finished-at="2016-12-21T08:22:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.home_page.HomePageTest.testAddingCommentToFile()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="homePagePrepare()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="homePagePrepare" is-config="true" duration-ms="2" started-at="2016-12-21T08:22:45Z" finished-at="2016-12-21T08:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagePrepare -->
+        <test-method status="PASS" signature="testAddingCommentToFile()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="testAddingCommentToFile" duration-ms="5651" started-at="2016-12-21T08:22:45Z" finished-at="2016-12-21T08:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingCommentToFile -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="afterMethod" is-config="true" duration-ms="44" started-at="2016-12-21T08:22:51Z" finished-at="2016-12-21T08:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="5497" started-at="2016-12-21T08:22:51Z" finished-at="2016-12-21T08:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.home_page.HomePageTest.testCreatingNewFolder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="homePagePrepare()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="homePagePrepare" is-config="true" duration-ms="1" started-at="2016-12-21T08:22:57Z" finished-at="2016-12-21T08:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagePrepare -->
+        <test-method status="PASS" signature="testCreatingNewFolder()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="testCreatingNewFolder" duration-ms="18795" started-at="2016-12-21T08:22:57Z" finished-at="2016-12-21T08:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatingNewFolder -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="afterMethod" is-config="true" duration-ms="48" started-at="2016-12-21T08:23:15Z" finished-at="2016-12-21T08:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="6231" started-at="2016-12-21T08:23:16Z" finished-at="2016-12-21T08:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.home_page.HomePageTest.testLogoutButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="homePagePrepare()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="homePagePrepare" is-config="true" duration-ms="2" started-at="2016-12-21T08:23:22Z" finished-at="2016-12-21T08:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagePrepare -->
+        <test-method status="PASS" signature="testLogoutButton()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="testLogoutButton" duration-ms="3568" started-at="2016-12-21T08:23:22Z" finished-at="2016-12-21T08:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="afterMethod" is-config="true" duration-ms="56" started-at="2016-12-21T08:23:25Z" finished-at="2016-12-21T08:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="beforeMethod" is-config="true" duration-ms="6122" started-at="2016-12-21T08:23:25Z" finished-at="2016-12-21T08:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.home_page.HomePageTest.testPresenceOfOfFileSharingFolder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="homePagePrepare()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="homePagePrepare" is-config="true" duration-ms="1" started-at="2016-12-21T08:23:31Z" finished-at="2016-12-21T08:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagePrepare -->
+        <test-method status="PASS" signature="testPresenceOfOfFileSharingFolder()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="testPresenceOfOfFileSharingFolder" duration-ms="1656" started-at="2016-12-21T08:23:31Z" finished-at="2016-12-21T08:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPresenceOfOfFileSharingFolder -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.home_page.HomePageTest@6adede5]" name="afterMethod" is-config="true" duration-ms="63" started-at="2016-12-21T08:23:33Z" finished-at="2016-12-21T08:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.home_page.HomePageTest -->
+    </test> <!-- homepage -->
+  </suite> <!-- smoke -->
+</testng-results>

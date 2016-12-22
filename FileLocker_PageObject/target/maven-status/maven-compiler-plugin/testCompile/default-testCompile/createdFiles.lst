@@ -1,0 +1,4 @@
+tests\BaseTest.class
+tests\home_page\HomePageTest.class
+tests\login_page\LoginPageTest.class
+tests\ProfilePageTest.class

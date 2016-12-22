@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke" verbose="5" parallel="tests" thread-count="3">
+    <test name = "login">
+        <packages>
+            <package name="tests.login_page.*"></package>
+        </packages>
+    </test>
+    <test name = "homepage">
+        <packages>
+            <package name="tests.home_page.*"></package>
+        </packages>
+    </test>
+    </suite>

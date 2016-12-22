@@ -1,0 +1,11 @@
+util\PropertiesManager.class
+pageObject\PageObject.class
+pageObject\ProfilePage.class
+pageObject\LeftMenuBlock.class
+profileData\ProfileDataBuilder.class
+pageObject\BasePage.class
+pageObject\TopMenuBlock.class
+util\DriverManager.class
+pageObject\HomePage.class
+pageObject\LoginPage.class
+profileData\ProfileData.class
